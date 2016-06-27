@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.lemon {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: purple;
+  border: 2px solid blue;
+  background: lightblue;
+  float: left;
+  margin-left: 200px;
+}
+
+.lemon p {
+  border: 1px solid grey;
+  background: lightgrey;
+  margin: 15px;
+}
+
+.textbox {
+  width: 500px;
+  height: 300px;
+  border: 2px solid purple;
+  display: block;
+  margin-left: auto;
+  margin-right: 200px;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+
+.container {
+  margin-top: 360px;
+  margin-bottom: 360px;
+}
